@@ -373,6 +373,7 @@ export function PatientDetail() {
               id="phone"
               label="Phone"
               name="phone"
+              type="number"
               value={patient.phone}
               onChange={handleChange}
             />
